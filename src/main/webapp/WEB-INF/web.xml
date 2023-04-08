@@ -1,0 +1,93 @@
+<web-app>
+	
+	<!-- Index.jsp -->
+	<servlet>
+		<servlet-name>Home</servlet-name>
+		<jsp-file>/index.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Home</servlet-name>
+		<url-pattern>/Home</url-pattern>
+	</servlet-mapping>
+	
+	<!-- userDashboard.jsp -->
+	<servlet>
+		<servlet-name>userDashboard</servlet-name>
+		<jsp-file>/userDashboard.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>userDashboard</servlet-name>
+		<url-pattern>/UserDashboard</url-pattern>
+	</servlet-mapping>
+	
+	<!-- adminDashboard.jsp -->
+	<servlet>
+		<servlet-name>adminDashboard</servlet-name>
+		<jsp-file>/adminDashboard.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>adminDashboard</servlet-name>
+		<url-pattern>/AdminDashboard</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Modal-Login-Register.jsp -->
+	<servlet>
+		<servlet-name>modalLoginRegister</servlet-name>
+		<jsp-file>/Modal-Login-Register.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>modalLoginRegister</servlet-name>
+		<url-pattern>/ModalLoginRegister</url-pattern>
+	</servlet-mapping>
+	
+	<!-- viewProduct.jsp -->
+	<servlet>
+		<servlet-name>ProductView</servlet-name>
+		<jsp-file>/components/viewProduct.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ProductView</servlet-name>
+		<url-pattern>/ViewProduct</url-pattern>
+	</servlet-mapping>
+	
+	<!-- order.jsp -->
+	<servlet>
+		<servlet-name>OrderPage</servlet-name>
+		<jsp-file>/components/order.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OrderPage</servlet-name>
+		<url-pattern>/Order</url-pattern>
+	</servlet-mapping>
+	
+	<!-- PaymentPage.jsp -->
+	<servlet>
+		<servlet-name>PaymentPage</servlet-name>
+		<jsp-file>/components/PaymentPage.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PaymentPage</servlet-name>
+		<url-pattern>/Payment</url-pattern>
+	</servlet-mapping>
+	
+	<!-- uploadPrescription.jsp -->
+	<servlet>
+		<servlet-name>Uploadprescription</servlet-name>
+		<jsp-file>/components/uploadPrescription.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Uploadprescription</servlet-name>
+		<url-pattern>/UploadPrescription</url-pattern>
+	</servlet-mapping>
+	
+	<!-- myOrders.jsp -->
+	<servlet>
+		<servlet-name>myOrders</servlet-name>
+		<jsp-file>/components/myOrders.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>myOrders</servlet-name>
+		<url-pattern>/MyOrders</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
